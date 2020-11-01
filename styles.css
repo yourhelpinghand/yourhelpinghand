@@ -152,6 +152,7 @@ hr {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: -2rem;
+  padding-bottom: 20px;
 }
 
 /*----------Footer End----------*/
@@ -168,12 +169,23 @@ hr {
   #iteml { padding-left: 40px; padding-right: 10px;}
   #itemr { padding-right: 5px; padding-left: 100px;}
   #footer-logo { width: 210px; height: 70px;}
+  .footer-email { padding-right: 10px; padding-left: 10px; font-size: 16px;}
   .featurette-divider { margin: 5rem 5rem; }
   .featurette-image { display: block; margin-left: auto; margin-right: auto; padding-top: 40px; padding-bottom: 40px; padding-left: 20px; padding-right: 20px;}
 }
 
 @media only screen and (max-width: 720px) {
   .featurette-image { padding-top: 20px; padding-bottom: 20px; padding-left: 40px; padding-right: 40px;}
+}
+
+@media only screen and (max-width: 400px) {
+  #logo { width: 180px;}
+  .footer { margin-right: -2rem;}
+  #iteml { padding-left: 40px; padding-right: 5px;}
+  #itemr { padding-right: 5px; padding-left: 50px;}
+  #footer-logo { width: 150px; height: 70px;}
+  .footer-email { padding-right: 25px; padding-left: 0px; margin-right: -2rem; font-size: 14px;}
+  
 }
 
 /*----------Home Page Ends----------*/
